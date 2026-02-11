@@ -19,12 +19,12 @@ docker compose -f db.yaml up -d #background
 
 ## Admin
 ```sh
-docker compose -f admin.yamal up #monitoring
-docker compose -f admin.yamal up -d #background
+docker compose -f admin.yaml up #monitoring
+docker compose -f admin.yaml up -d #background
 ```
 
 ## app
 ```sh
-docker compose -f app.yamal up #monitoring
-docker compose -f app.yamal up -d #background
+docker compose -f app.yaml up #monitoring
+docker compose -f app.yaml up -d #background
 ```
