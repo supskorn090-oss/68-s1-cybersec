@@ -7,4 +7,4 @@ services:
     environment:
       POSTGRES_USER: ${postgres_USER}
       POSTGRES_DB: ${postgres_NAME}
-      POSTGRES_PASSWORD: ${postgres_PORT}
+      POSTGRES_PASSWORD: ${postgres_PASS}
